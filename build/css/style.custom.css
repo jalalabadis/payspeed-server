@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Baloo+2&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,900&family=Secular+One&display=swap');
+
 /* ==================My Custom=================== */
 .amount_quntyms{
     color: #187d44;
@@ -174,3 +177,36 @@ color: #FFFCFC;
   width: 350px;
   }
  
+/* Table  */
+.tablecustopmy-poly td{
+  font-family: 'Baloo 2', cursive;
+}
+.statefonteser-hkj{
+  font-family: 'Baloo 2', cursive;
+}
+  /* For Popup */
+  .popupsd-lefts{
+flex: 1;
+text-transform: capitalize;
+font-family: 'Baloo 2', cursive;
+  }
+  .popupsd-rights{
+    flex: 1;
+    text-transform: capitalize;
+    text-align: right; 
+    margin-right: 5px;
+    font-family: 'Baloo 2', cursive;
+  }
+
+
+  /* Card */
+  .card-full-img{
+    width: 100%;
+    height: 120px;
+  }
+  .deletebuttonsd-full-imghk{
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    z-index: 9;
+  }
