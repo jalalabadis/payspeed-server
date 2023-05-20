@@ -67,6 +67,12 @@ height: 85px;
   margin: 0;
   }
 
+  .footer-sucessfuls-dk{
+    border-radius: 15px 15px 0 0;
+    height: 285px;
+    margin: 0;
+    }
+
   /* Item */
   .content-iten-section-dk{
 margin-left: 0;
@@ -82,5 +88,37 @@ margin-left: 0;
   }
   .login-content-dx{
     width: 100%;
+  }
+
+  /* ============== */
+
+}
+
+/*460px  */
+
+@media only screen and (max-width: 460px) {
+
+  .top-left-carousel {
+    width: 100%;
+      }
+
+  .landing-main-contents{
+    width: 100%;
+  }
+
+  .transaction-text-mainc-dx{
+    width: 176px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .offer-conbo-text-dk{
+    width: 180px;
+    overflow: hidden;
+  }
+
+  .transaction-conbo-text-dk{
+    width: 240px;
+    overflow: hidden;
   }
 }

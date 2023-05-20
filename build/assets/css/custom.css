@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Baloo+2&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,900&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Baloo+2&family=Josefin+Sans:wght@700&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,900&family=Secular+One&display=swap');
 /* Color */
 .hkj-bg-greens{
 background: #359D3A;
@@ -43,15 +44,13 @@ margin-left: 270px;
 }
 .current-blance-text{
 color: #359D3A;
-font-size: 20px;
-  font-weight: bold;
-  font-family: 'Baloo 2', cursive;
+font-size: 25px;
+font-weight: bold;
 }
 .current-blance-text2{
   color: #000000;
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Baloo 2', cursive;
   }
 .post_colums{
   padding: 0px 5%;
@@ -74,6 +73,11 @@ font-size: 20px;
   padding: 20px 10px;
   border-radius: 0.875rem;
 }
+.post-title{
+  margin-top: 5px;
+overflow: hidden;
+font-size: 13px;
+}
 .post-iconss .material-icons{
   color: #FFFDFD;
   font-size: 54px;
@@ -88,6 +92,7 @@ font-size: 20px;
  border-radius: 6px;
 
 }
+
 .post-title2{
   color: #000000;
   font-weight: bold;
@@ -124,6 +129,7 @@ z-index: 999;
     color: #FFFDFD;
     text-decoration: none;
     display: flex;
+    font-weight: 400;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 }
@@ -133,6 +139,11 @@ display: none;
 color: #FFFDFD;
 margin-top: 50px;
 text-align: center;
+font-weight: 600;
+}
+
+.user-section .material-icons{
+  font-size: 95px;
 }
 .sidebar-hkj .material-icons {
     color: #FFFDFD;
@@ -149,7 +160,7 @@ text-align: center;
 
 .slider img {
   width: 100%;
-  height: 185px;
+  height: auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -188,9 +199,13 @@ text-align: center;
 .text-small-gray-hkj{
   color: #a8a6a6;
   font-size: small;
+  margin-left: 10px;
 }
+
 .text-small-gray-hkj2{
   color: #a8a6a6;
+  text-transform: capitalize;
+  white-space: nowrap;
 }
 /* ==========================================
           Cards List
@@ -202,7 +217,7 @@ text-align: center;
   border-radius: 0.8rem  0.8rem 0 0;
   padding: 10px 8px 130px;
   margin: 0 8px;
-  min-height: 21vh;
+  min-height: 35vh;
 }
 .transaction-hkj .card{
   margin-top: 10px;
@@ -214,8 +229,8 @@ text-align: center;
 background: #359D3A;
 color: #ffff;
 border-radius: 50%;
-font-size: 12px;
-padding: 10px;
+font-size: 16px;
+padding: 14px;
 }
 .commonhk-titles{
   color: #ffff;
@@ -232,10 +247,11 @@ padding: 10px;
     padding: 0 5px;
   }
   .contents-transaction-hkj img{
-  width: 55px;
+  width: 75px;
   margin-right: 10px;
   }
 
+ 
 /* Deposit Bank Select */
 .depositbanks-hkj{
   background: transparent;
@@ -263,31 +279,34 @@ color: #359D3A;
 font-size: 25px;
 }
 .deposit-title-text-dk{
-font-size: 15px;
-font-weight: bold;
+font-size: 16px;
+font-weight:bold;
 }
 /* Status */
 .pending{
   background: #ff9100;
   color: #ffff;
-  padding: 2px;
+  padding: 5px;
   border-radius: 6px;
   font-size: 10px;
+  text-transform: capitalize;
 }
 .completed{
   background: #029b17;
   color: #ffff;
-  padding: 2px;
+  padding: 5px;
   border-radius: 6px;
   font-size: 10px;
+  text-transform: capitalize;
 }
 
 .cancel{
   background: #be4b1d;
   color: #ffff;
-  padding: 2px;
+  padding: 5px;
   border-radius: 6px;
   font-size: 10px;
+  text-transform: capitalize;
 }
 
 /* Footer */
@@ -376,6 +395,15 @@ gap: 1px;
 margin-left: 5px;
 }
 
+.btn-customer-bl-add-dk{
+  background: #359c3a;
+  color: #F5F5F5;
+  margin-top: 15px;
+}
+.btn-customer-bl-add-dk:hover{
+  background: #359c3a;
+  color: #F5F5F5;
+}
 /* ==============Input======================== */
 .custom-field {
   position: relative;
@@ -749,6 +777,64 @@ background: rgb(233, 172, 4);
 color: #e4dfdf;
 }
 
+.btn-foter-sucessulk-dk{
+  background: #359c3a;
+  color: #f2f2f2;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  text-transform: uppercase;
+}
+.transform-dk{
+  transform:rotate(-40deg);
+}
+
+.btn-foter-sucessulk-dk:hover{
+background: #359c3a;
+color: #e4dfdf;
+}
+/* Footer Complite */
+.shadow-modal-dx {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.footer-sucessfuls-dk{
+  height: 120px; 
+  background: #ffffff;
+  padding: 25px 10px ;
+  margin-left: 270px;
+  z-index: 999;
+}
+
+.sucsert-contents-dx{
+  margin: 35px 10px;
+  text-align: center;
+  display: grid;
+}
+
+.sucsert-contents-dx .material-icons{
+color: #359c3a;
+font-size: 65px;
+}
+.footer-sucess-titles{
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-sucess-subtitles{
+  font-size: 14px;
+  font-weight: bold;
+  color: #352e2ead;
+}
 /* Contewnt History */
 .content-iten-section-dk{
   background: #eeeeee4b;
@@ -813,6 +899,23 @@ color: #e4dfdf;
   font-weight: 600;
   font-size: small;
   text-transform: capitalize;
+  white-space: nowrap;
+}
+.offer-conbo-text-dk2{
+  font-weight: 600;
+  font-size: small;
+  text-transform: capitalize;
+}
+.offer-conbo-text-dk2 span{
+  font-weight: 600;
+  font-size: small;
+  text-transform: capitalize;
+  color: #a8a6a6dc;
+}
+
+.transaction-conbo-text-dk{
+  text-transform: capitalize;
+  white-space: nowrap;
 }
 .red-dk{
   color: red
@@ -866,6 +969,9 @@ font-weight: 600;
 .account-info-contant-dk{
   padding: 10px 10px;
   font-weight: 500;
+}
+.account-info-contant-dk a{
+  color: #f2f2f2;
 }
 .ticketbox-selectdx{
   margin-top: 15px;
@@ -928,11 +1034,15 @@ text-align: left;
 .login-titles-dx{
   font-weight: 500;
   font-size: 22px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .login-subtitles-dx{
   font-weight: 500;
   font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .login-form-content{
@@ -1170,12 +1280,13 @@ font-size: 60px;
 
 .grop-refico-body{
 border: 1px solid rgba(128, 128, 128, 0.377);
-width: 50px;
-  height: 50px;
+width: 70px;
+  height: 70px;
   display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    border-radius: 6px;
 }
   .userrederico-dk{
     color: white;
@@ -1191,5 +1302,127 @@ width: 50px;
   .topy-item-dkj{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    color: #359D3A;
+  }
+
+  /* =========================== */
+  .landing-container{
+    background: #359D3A;
+    height: 100vh;
+    display: flex;
     justify-content: center;
   }
+  .landing-main-contents{
+    width: 415px;
+    text-align: center;
+  }
+  .top-left-carousel {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    background: white;
+    width: 415px;
+  }
+
+.top-left-carousel-img-dx{
+width:100%;
+height: auto;
+  }
+  .carousel-item{
+    background-color: transparent;
+  }
+  .top-left-carousel .carousel-control-next-icon {
+    display: none;
+  }
+  .top-left-carousel .carousel-control-prev {
+    display: none;
+  }
+
+.slider-top-content-dk{
+margin: 15px 10px;
+display: grid;
+  }
+  .slider-top-content-dk img{
+width: 45px;
+height: 45px;
+margin: 0 0 20px 30px;
+
+  }
+
+  .landing-title{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .landing-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+.btnlanding-start-btn{
+  text-transform: uppercase;
+  background: #FFFDFD;
+  font-size: 14px;
+  padding: 15px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 55vh 5% 0;
+  letter-spacing: 3px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btnlanding-start-btn:hover{
+  background: #FFFDFD;
+}
+
+.btnlanding-start-btn span{
+margin-top: 3px;
+}
+
+
+/* Popups */
+.image-container {
+  width: 100%;
+  height: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-image {
+  transition: opacity 0.5s;
+  width: 50px;
+  animation: opacityAnimation 1s infinite;
+}
+
+.fade-image:hover {
+  opacity: 0.5;
+}
+
+/* ============= */
+.customer-info-pok-dk{
+  background: #359c3a;
+  color: #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 32px;
+  width: 80%;
+}
